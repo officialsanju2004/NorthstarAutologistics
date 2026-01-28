@@ -853,12 +853,7 @@ Let’s get your vehicle moving — the right way.      </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {[
-            {
-              title: "Affordable",
-               icon:<Trophy className="w-8 h-8" />,
-              desc:
-                "We offer premium auto transport services at the most affordable prices, with zero hidden charges",
-            },
+            
             {
               title: "On Time Shipping",
                icon:<Clock className="w-8 h-8" />,
@@ -883,12 +878,7 @@ Let’s get your vehicle moving — the right way.      </p>
               desc:
                 "Skilled professionals who know the ins and outs of vehicle logistics, ensuring safe and timely transport every time",
             },
-            {
-              title: "Years Of Experience",
-               icon:<Tag className="w-8 h-8" />,
-              desc:
-                "Trusted by thousands — our years of experience speak through every smooth, on-time delivery we make",
-            },
+            
           ].map((item, index) => (
               <div 
                 key={index}
