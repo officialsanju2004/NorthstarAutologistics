@@ -939,12 +939,7 @@ Let’s get your vehicle moving — the right way.      </p>
               desc:
                 "Transport costs can vary by season. Summer months and snowbird routes typically see higher demand. Book in advance for the best rates and availability.",
             },
-            {
-              title: "Transport Method",
-              icon:<Truck className="w-8 h-8" />,
-              desc:
-                "Non-running vehicles need special tools for safe loading and unloading, which can change the cost. Our skilled team knows how to handle both operable and inoperable cars with care.",
-            },
+            
           ].map((item, index) => (
               <div 
                 key={index}
