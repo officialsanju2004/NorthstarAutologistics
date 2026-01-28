@@ -17,7 +17,7 @@ let enquiryInsert = async (req, res) => {
 
     const mailOptions = {
       from: email,
-      to: process.env.EMAIL_USER,
+      to: process.env.Email_USER,
       subject: "New Contact Form Submission",
       html: `
         <h3>New Message</h3>
