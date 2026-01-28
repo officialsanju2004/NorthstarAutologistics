@@ -11,7 +11,7 @@ let enquiryInsert = async (req, res) => {
       service: "gmail",
       auth: {
         user:process.env.Email_USER,
-        pass:process.env.Email_pass,
+        pass:process.env.Email_PASS,
       },
     });
 
