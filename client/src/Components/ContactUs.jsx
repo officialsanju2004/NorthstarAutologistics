@@ -34,7 +34,7 @@ const handleSubmit = (e) => {
       return;
     }   
     axios
-      .post("https://northstar-autologistics-cs1g.vercel.app/web/api/enquiry/enquiry-insert", formData)
+      .post("https://northstar-autologistics123.vercel.app/web/api/enquiry/enquiry-insert", formData)
       .then((res) => {
         toast.success("Message Sent!!!");
         setFormData({ name: '',
