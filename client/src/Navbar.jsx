@@ -351,7 +351,7 @@ const Bike=location.pathname==="/BikeAtvRtvTransport"
                       className="flex items-center space-x-3 hover:text-primary-600"
                     >
                       <FaEnvelope />
-                      <span>Northstarautologistics@gmail.com</span>
+                      <span href="mailto:Northstarautologistics@gmail.com">Northstarautologistics@gmail.com</span>
                     </a>
                   </div>
                 </div>
