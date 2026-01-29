@@ -54,11 +54,11 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-5">Contact Us</h3>
           <p className="text-[#F2E9D8] leading-7 text-sm">
-            Address - XYZ <br />
-            11436 <br />
+            Address - 2027 Bright Star Pl,Stockton, CA 95209 <br />
+            <br />
             <br />
             Call Us- +1(209)395-8481 <br />
-            Email Us- xyz@gmail.com
+            Email Us- Northstarautologistics@gmail.com
           </p>
         </div>
 
