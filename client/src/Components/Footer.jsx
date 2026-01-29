@@ -93,13 +93,41 @@ export default function Footer() {
 
       {/* BOTTOM BAR */}
       
-      <div className="border-t border-white/20 px-6 md:px-20 py-4 flex flex-col md:flex-row justify-between gap-3 text-lg text-[#F2E9D8]">
-        <span>Copyright © {new Date().getFullYear()} <a  className="text-[#B23A2F] text-bold" href="https://northstarautologistics.com">northstarautologistics.com</a></span>
-        <span>
-          Developed and Managed by{" "}
-          <strong className="text-[#B23A2F]"><a href='https://growthflowmedia.com'>GROWTH FLOW MEDIA</a></strong>
-        </span>
-      </div>
+<div className="border-t border-white/20 px-4 md:px-20 py-4
+flex flex-col items-center gap-2 text-[#F2E9D8]">
+
+  {/* LINE 1 */}
+  <div className="
+    flex items-center justify-center gap-1
+    text-xs md:text-base
+    whitespace-nowrap
+    text-center
+  ">
+    <span>© {new Date().getFullYear()}</span>
+    <span
+      onClick={() => window.location.href = 'https://northstarautologistics.com'}
+      className="cursor-pointer text-[#B23A2F] font-semibold"
+    >
+      northstarautologistics.com
+    </span>
+  </div>
+
+  {/* LINE 2 */}
+  <div className="
+    flex items-center justify-center gap-1
+    text-xs md:text-base
+    text-center
+  ">
+    <span>Developed and Managed by</span>
+    <span
+      onClick={() => window.location.href = 'https://growthflowmedia.com'}
+      className="cursor-pointer text-[#B23A2F] font-semibold"
+    >
+      GROWTH FLOW MEDIA
+    </span>
+  </div>
+
+</div>
     </footer>
   );
 }
