@@ -111,7 +111,7 @@ const handleSubmit = (e) => {
               <p className="text-lg font-bold text-[#1F3A5F] mb-8 leading-relaxed">
              Disclaimer         </p>
                <p className="text-lg  text-[#1F3A5F] mb-8 leading-relaxed">
-         By providing my phone number to “American Auto Hauling“, I agree and acknowledge that “American Auto Hauling” may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to opt out by replying “STOP”, assistance can be found by texting “HELP”. For more information on how your data will be handled please visit:<a href="/privacy-policy" className="text-red-700"> Privacy policy </a>              </p>
+         By providing my phone number to “Northstar Autologstics LLC, California “, I agree and acknowledge that “Northstar Autologistics, LLC, California ” may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to opt out by replying “STOP”, assistance can be found by texting “HELP”. For more information on how your data will be handled please visit:<a href="/privacy-policy" className="text-red-700"> Privacy policy </a>              </p>
               
       
 
