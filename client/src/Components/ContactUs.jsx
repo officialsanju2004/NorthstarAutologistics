@@ -152,7 +152,7 @@ const handleSubmit = (e) => {
         
         className="text-xl md:text-2xl font-bold text-[#1F3A5F] hover:text-[#B23A2F] transition-colors"
       >
-        XYZ
+        2027 Bright Star Pl, Stockton, CA 95209
       </a>
     </div>
   </div>
@@ -174,7 +174,7 @@ const handleSubmit = (e) => {
         
         className="text-xl md:text-2xl font-bold text-[#1F3A5F] hover:text-[#B23A2F] transition-colors"
       >
-        xyz@gmail.com
+        Northstarautologistics@gmail.com
       </a>
     </div>
   </div>
