@@ -16,7 +16,7 @@ const About = () => {
         {/* Left Content */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-[#1F3A5F] mb-6">
-            Driven To Deliver – Expert Auto Hauling You Can Rely On
+            Driven To Deliver – Northstar Autologstics LLC You Can Rely On
           </h1>
 
           <p className="text-gray-700 text-lg leading-relaxed mb-8">
