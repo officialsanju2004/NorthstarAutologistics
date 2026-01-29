@@ -3,12 +3,7 @@ import logo from '../../Images/logo.jpg'
 export default function Footer() {
   
   const navigate=useNavigate();
-  const handleChange=(e)=>{
-    const value =e.target.value;
-    if(value){
-      navigate(value);
-    }
-  }
+  
   return (
     <footer className="bg-[#1F3A5F] text-white">
       {/* CTA SECTION */}
@@ -76,28 +71,7 @@ export default function Footer() {
                 Home
               </a>
             </li>
-            <li>
-              <select onChange={handleChange}
-              className='ml-1 bg-[#1F3A5F] text-[#F2E9D8]'
-              defaultValue="">
-                <option value="" disabled>Services</option>
-                <option value="/OpenTrailers">OpenTrailers</option>
-
-                <option value="/EnclosedTrailerTransport" >Enclosed Trailer Transport</option>
-
-                <option value="/FlatbedTrailer" >Flatbed Trailers Transport</option>
-
-                <option value="/BikeAtvRtvTransport" >BIKE/ATV/RTV Transport</option>
-
-                <option value="/BoatShipping" >Boat Shipping</option>
-
-                <option value="/HeavyVehicleTransport" >Heavy Vehicles</option>
-
-                
-              </select>
-              
-  
-            </li>
+          
             <li>
               <a href="/about" className="ml-2 hover:text-white">
                 About Us
