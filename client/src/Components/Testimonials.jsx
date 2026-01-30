@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
-import male1 from '../../Images/Male1.jpg';
-import male2 from '../../Images/Male2.jpg';
-import male3 from '../../Images/Male3.jpg';
 
 // Testimonial data
 const testimonials = [
@@ -13,7 +10,7 @@ const testimonials = [
     role: "Car Collector",
     content: "Northstar transported my classic Corvette cross-country with incredible care. The enclosed trailer service was flawless, and the team kept me updated every step of the way. Professional, punctual, and priced fairly!",
     rating: 5,
-    image: male1// Initials for avatar
+    image: "mal"// Initials for avatar
   },
   {
     id: 2,
@@ -29,7 +26,7 @@ const testimonials = [
     role: "Dealership Owner",
     content: "As a dealership, we ship multiple vehicles weekly. Northstar consistently provides reliable service, competitive rates, and professional carriers. They've become our go-to transport partner for all interstate shipments.",
     rating: 5,
-    image: male2
+    image: "male2"
   },
   {
     id: 4,
@@ -45,7 +42,7 @@ const testimonials = [
     role: "Luxury Car Owner",
     content: "Shipping my Porsche 911 was nerve-wracking, but Northstar's enclosed transport gave me peace of mind. The carrier was experienced with high-end vehicles, and the delivery was perfectly timed. Top-tier service!",
     rating: 5,
-    image: male3
+    image: "male3"
   },
   {
     id: 6,
