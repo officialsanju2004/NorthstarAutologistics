@@ -4,10 +4,10 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import male1 from '../../Images/male1.jpg';
 import male2 from '../../Images/Male2.jpg';
 import male3 from '../../Images/Male3.jpg';
-import female1 from '../../Images/female1.jpg':
-import female2 from '../../Images/female2.jpg':
+import female1 from '../../Images/female1.jpg';
+import female2 from '../../Images/female2.jpg';
 
-import female3 from '../../Images/female3.jpg':
+import female3 from '../../Images/female3.jpg';
 
 
 
