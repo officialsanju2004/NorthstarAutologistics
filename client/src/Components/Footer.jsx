@@ -58,7 +58,7 @@ export default function Footer() {
             <br />
             <br />
             Call Us- +1(209)395-8481 <br />
-            Email Us- Northstarautologistics@gmail.com
+            Email Us- Info@northstarautologistics.com
           </p>
         </div>
 
