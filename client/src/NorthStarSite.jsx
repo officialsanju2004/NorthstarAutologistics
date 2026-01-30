@@ -961,6 +961,78 @@ Let’s get your vehicle moving — the right way.      </p>
           </div>
         </div>
       </section>
+    <section className="py-20 bg-white">
+  <div className="container mx-auto px-6">
+    
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <h3 className="text-sm font-semibold text-[#B23A2F] mb-2">
+        What Our Customers Say
+      </h3>
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        Trusted by Vehicle Owners Nationwide
+      </h2>
+      <p className="max-w-2xl mx-auto text-[#1F3A5F]/80">
+        From open trailers to enclosed transport and heavy vehicle shipping,
+        our customers trust us for safe, reliable, and on-time delivery.
+      </p>
+    </div>
+
+    {/* Testimonials Grid */}
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {[
+        {
+          name: "Michael R.",
+          service: "Open Trailer Transport",
+          review:
+            "Excellent service from start to finish. My car was delivered on time with zero issues. The pricing was transparent and communication was top-notch.",
+        },
+        {
+          name: "Sarah L.",
+          service: "Enclosed Auto Transport",
+          review:
+            "I shipped my luxury car using enclosed transport and couldn’t be happier. The vehicle arrived in perfect condition. Highly professional team.",
+        },
+        {
+          name: "David K.",
+          service: "Motorcycle & ATV Transport",
+          review:
+            "They handled my motorcycle with extreme care. Pickup and delivery were smooth, and the staff kept me updated throughout the journey.",
+        },
+        {
+          name: "Jennifer M.",
+          service: "Heavy Vehicle & Flatbed Transport",
+          review:
+            "We transported heavy equipment using their flatbed service. Everything went exactly as promised. Reliable, efficient, and trustworthy.",
+        },
+      ].map((item, index) => (
+        <div
+          key={index}
+          className="group bg-[#F2E9D8]/50 p-8 rounded-2xl hover:bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-[#1F3A5F]/10"
+        >
+          {/* Avatar */}
+          <div className="w-16 h-16 bg-gradient-to-br from-[#1F3A5F] to-[#B23A2F] rounded-2xl flex items-center justify-center mb-6 text-white text-xl font-bold">
+            {item.name.charAt(0)}
+          </div>
+
+          {/* Review */}
+          <p className="text-gray-600 mb-6">
+            “{item.review}”
+          </p>
+
+          {/* Name */}
+          <h3 className="text-lg font-bold text-[#1F3A5F]">
+            {item.name}
+          </h3>
+          <p className="text-sm text-[#B23A2F] font-medium">
+            {item.service}
+          </p>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
 
 
             <section className="py-20 ">
