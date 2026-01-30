@@ -14,6 +14,9 @@ import image8 from '../Images/image8.jpg'
 import image9 from '../Images/image9.jpg'
 import image10 from '../Images/image10.jpg'
 import image11 from '../Images/image11.jpg'
+import enclosed from '../Images/enclosed.jpg'
+ import atv from '../Images/Atv.jpg'
+import heavy from '../Images/heavy.jpg'
 
 
 import image4 from '../Images/image4.jpg'
