@@ -8,6 +8,7 @@ import image9 from '../../Images/image9.jpg'
 import bike1 from '../../Images/bike1.jpg'
 
 import bike2 from '../../Images/bike2.jpg'
+import atv from '../../Images/Atv.jpg'
 
 export default function BikeAtvTransport() {
     const images = [
@@ -70,7 +71,7 @@ export default function BikeAtvTransport() {
         </div>
         <div className="h-full flex items-center">
                    <img
-                     src={image9}
+                     src={atv}
                      className="rounded-xl shadow-lg w-full h-full max-h-[500px] object-cover"
                      alt="Specialized Transport"
                    />
