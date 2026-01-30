@@ -962,7 +962,7 @@ Let’s get your vehicle moving — the right way.      </p>
         </div>
       </section>
     
-<section className="py-20 bg-white overflow-hidden">
+
 <section className="py-20 bg-white overflow-hidden">
   <div className="container mx-auto px-6">
     {/* Heading */}
