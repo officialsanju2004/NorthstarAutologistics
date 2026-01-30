@@ -961,23 +961,7 @@ Let’s get your vehicle moving — the right way.      </p>
           </div>
         </div>
       </section>
-    <section className="py-20 bg-white">
-  <div className="container mx-auto px-6">
     
-    {/* Heading */}
-    <div className="text-center mb-16">
-      <h3 className="text-sm font-semibold text-[#B23A2F] mb-2">
-        What Our Customers Say
-      </h3>
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Trusted by Vehicle Owners Nationwide
-      </h2>
-      <p className="max-w-2xl mx-auto text-[#1F3A5F]/80">
-        From open trailers to enclosed transport and heavy vehicle shipping,
-        our customers trust us for safe, reliable, and on-time delivery.
-      </p>
-    </div>
-
     <section className="py-20 bg-black overflow-hidden">
   <div className="container mx-auto px-6">
 
@@ -1090,9 +1074,11 @@ Let’s get your vehicle moving — the right way.      </p>
     }
   `}</style>
 </section>
+    
 
 
-            <section className="py-20 ">
+
+         <section className ="py-20">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 ">
             <Counter end={3} label="Years in Business" className="!text-[#1F3A5F]" />
