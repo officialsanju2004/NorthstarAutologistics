@@ -115,7 +115,7 @@ export default function AutoTransportWebsite() {
       title: "Enclosed Trailers",
       description: "Enclosed Trailers provide maximum protection for your vehicle from weather and road debris.Ideal for luxury,classic,or exotic cars,ensuring safe,secure,and damage-free transport every time.",
       link:"/EnclosedTrailerTransport",
-      image: image8
+      image: enclosed
     },
     {
       title: "Flatbed Trailers",
@@ -127,7 +127,7 @@ export default function AutoTransportWebsite() {
       title: "Bike/RTV/ATV Shipping",
       description: "Specialized shipping for bikes, RTVs, and ATVs with secure loading and handling.Fast,reliable transport ensuring your ride reaches safely,whether across cities or states.  ",
      link:"/BikeAtvRtvTransport",
-      image: image9
+      image: atv
     },
     {
       title: "Boat Shipping",
@@ -139,7 +139,7 @@ export default function AutoTransportWebsite() {
       title: "Heavy Vehicles",
       description: "Expert transport solutions for heavy vehicles like trucks and machinery.Our Specialized trailers and trained-crew ensure safe,on-time delivery,handling weight and size challenges effortlessly.",
        link:"/HeavyVehicleTransport",
-      image:image2
+      image:heavy
     }
   ];
 
