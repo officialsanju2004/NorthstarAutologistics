@@ -962,26 +962,30 @@ Let’s get your vehicle moving — the right way.      </p>
         </div>
       </section>
     
-    <section className="py-20 bg-black overflow-hidden">
+<section className="py-20 bg-white overflow-hidden">
   <div className="container mx-auto px-6">
 
     {/* Heading */}
     <div className="text-center mb-16">
-      <h3 className="text-sm font-semibold text-orange-400 mb-2">
+      <h3 className="text-sm font-semibold text-[#B23A2F] mb-2">
         What Our Customers Say
       </h3>
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#1F3A5F] mb-4">
         Trusted by Vehicle Owners Nationwide
       </h2>
-      <p className="max-w-2xl mx-auto text-gray-400">
+      <p className="max-w-2xl mx-auto text-[#1F3A5F]/80">
         From open trailers to enclosed transport and heavy vehicle shipping,
         our customers trust us for safe, reliable, and on-time delivery.
       </p>
     </div>
 
     {/* Slider */}
-    <div className="flex gap-6 md:grid md:grid-cols-3 animate-slide md:animate-none">
-
+    <div
+      className="
+        flex gap-6 animate-slide
+        md:grid md:grid-cols-2 md:animate-none
+      "
+    >
       {[
         {
           name: "Michael R.",
@@ -1028,18 +1032,25 @@ Let’s get your vehicle moving — the right way.      </p>
       ].map((item, index) => (
         <div
           key={index}
-          className="min-w-full md:min-w-0 bg-[#111] border border-gray-800
-          p-6 rounded-xl shadow-lg"
+          className="
+            min-w-[50%] md:min-w-0
+            bg-[#F2E9D8]/60
+            border border-[#1F3A5F]/10
+            p-6 rounded-2xl
+            shadow-lg
+          "
         >
-          <p className="text-gray-300 text-sm mb-4">
+          <p className="text-gray-700 text-sm mb-4">
             “{item.review}”
           </p>
 
           {/* Stars */}
           <div className="flex gap-1 mb-4">
-            {Array(5).fill(0).map((_, i) => (
-              <span key={i} className="text-orange-400">★</span>
-            ))}
+            {Array(5)
+              .fill(0)
+              .map((_, i) => (
+                <span key={i} className="text-[#B23A2F]">★</span>
+              ))}
           </div>
 
           {/* User */}
@@ -1050,10 +1061,10 @@ Let’s get your vehicle moving — the right way.      </p>
               className="w-10 h-10 rounded-full object-cover"
             />
             <div>
-              <p className="text-white font-semibold text-sm">
+              <p className="text-[#1F3A5F] font-semibold text-sm">
                 {item.name}
               </p>
-              <p className="text-orange-400 text-xs">
+              <p className="text-[#B23A2F] text-xs font-medium">
                 {item.service}
               </p>
             </div>
@@ -1062,16 +1073,20 @@ Let’s get your vehicle moving — the right way.      </p>
       ))}
     </div>
   </div>
-
-  {/* Animation */}
+   {/* Animation */}
   <style>{`
     @keyframes slide {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-500%); }
-    }
-    .animate-slide {
-      animation: slide 28s linear infinite;
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 25s linear infinite;
+}
   `}</style>
 </section>
     
