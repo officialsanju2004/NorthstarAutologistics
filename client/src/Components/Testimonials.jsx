@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import male1 from '../../Images/male1.jpg';
+import male2 from '../../Images/Male2.jpg';
+import male3 from '../../Images/Male3.jpg';
 
 
 // Testimonial data
@@ -28,7 +30,7 @@ const testimonials = [
     role: "Dealership Owner",
     content: "As a dealership, we ship multiple vehicles weekly. Northstar consistently provides reliable service, competitive rates, and professional carriers. They've become our go-to transport partner for all interstate shipments.",
     rating: 5,
-    image: male1
+    image: male2
   },
   {
     id: 4,
@@ -44,7 +46,7 @@ const testimonials = [
     role: "Luxury Car Owner",
     content: "Shipping my Porsche 911 was nerve-wracking, but Northstar's enclosed transport gave me peace of mind. The carrier was experienced with high-end vehicles, and the delivery was perfectly timed. Top-tier service!",
     rating: 5,
-    image: male1
+    image: male3
   },
   {
     id: 6,
@@ -204,7 +206,7 @@ export default function TestimonialsSection() {
                       <div className="relative">
                         <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1F3A5F] to-[#B23A2F] flex items-center justify-center">
                           <span className="text-white font-bold text-lg">
-                            {testimonial.image}
+                            <img src={testimonial.image} className="object-cover w-full h-full rounded-full"/>
                           </span>
                         </div>
                         <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[#B23A2F] rounded-full flex items-center justify-center">
