@@ -209,11 +209,13 @@ export default function TestimonialsSection() {
                     <div className="flex items-center space-x-4 pt-6 border-t border-gray-100">
                       {/* Avatar Circle */}
                       <div className="relative">
-                        <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1F3A5F] to-[#B23A2F] flex items-center justify-center">
-                          <span className="text-white font-bold text-lg">
-                            <img src={testimonial.image} className="object-cover w-full h-full rounded-full"/>
-                          </span>
-                        </div>
+  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1F3A5F] to-[#B23A2F] p-[2px]">
+    <img
+      src={testimonial.image}
+      alt={testimonial.name}
+      className="w-full h-full rounded-full object-cover bg-white"
+    />
+  </div>
                         <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[#B23A2F] rounded-full flex items-center justify-center">
                           <Quote className="w-3 h-3 text-white" />
                         </div>
