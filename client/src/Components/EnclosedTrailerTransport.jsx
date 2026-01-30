@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import image8 from '../../Images/image8.jpg'
 import car1 from '../../Images/car1.png'
 import car2 from '../../Images/car2.jpg'
+import enclosed from '../../Images/enclosed.jpg'
 
 export default function EnclosedTrailerTransport() {
      const images = [
@@ -66,7 +67,7 @@ export default function EnclosedTrailerTransport() {
         </div>
         <div className="h-full flex items-center">
                    <img
-                     src={image8}
+                     src={enclosed}
                      className="rounded-xl shadow-lg w-full h-full max-h-[500px] object-cover"
                      alt="Specialized Transport"
                    />
