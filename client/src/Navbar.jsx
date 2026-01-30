@@ -347,11 +347,11 @@ const Bike=location.pathname==="/BikeAtvRtvTransport"
                       <span>+1 (209) 395-8481</span>
                     </a>
                     <a
-                      href="mailto:Northstarautologistics@gmail.com"
+                      href="mailto:Info@northstarautologistics.com"
                       className="flex items-center space-x-3 hover:text-primary-600"
                     >
                       <FaEnvelope />
-                      <span>Northstarautologistics@gmail.com</span>
+                      <span>Info@northstarautologistics.com</span>
                     </a>
                   </div>
                 </div>
