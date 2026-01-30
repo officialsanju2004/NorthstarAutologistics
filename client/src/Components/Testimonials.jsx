@@ -4,6 +4,11 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import male1 from '../../Images/male1.jpg';
 import male2 from '../../Images/Male2.jpg';
 import male3 from '../../Images/Male3.jpg';
+import female1 from '../../Images/female1.jpg':
+import female2 from '../../Images/female2.jpg':
+
+import female3 from '../../Images/female3.jpg':
+
 
 
 // Testimonial data
@@ -22,7 +27,7 @@ const testimonials = [
     role: "Relocating Family",
     content: "Moving from California to Texas with 3 vehicles seemed daunting, but Northstar made it seamless. Their communication was excellent, prices were transparent, and all our cars arrived without a scratch. Highly recommended!",
     rating: 5,
-    image: "SJ"
+    image: female1 
   },
   {
     id: 3,
@@ -38,7 +43,7 @@ const testimonials = [
     role: "Military Family",
     content: "PCS move required shipping our SUV and sedan. Northstar accommodated our tight schedule, provided military discount, and delivered both vehicles ahead of schedule. Exceptional service for military families!",
     rating: 5,
-    image: "JW"
+    image: female2
   },
   {
     id: 5,
@@ -54,7 +59,7 @@ const testimonials = [
     role: "Small Business Owner",
     content: "Needed to ship my work truck from Florida to Colorado. Northstar found a carrier quickly, offered fair pricing, and the truck arrived ready for work. Will definitely use them for future business needs.",
     rating: 5,
-    image: "MG"
+    image: female3
   }
 ];
 
