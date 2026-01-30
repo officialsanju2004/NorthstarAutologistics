@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import image2 from '../../Images/image2.jpg'
 import image14 from '../../Images/image14.webp'
+import heavy from '../../Images/heavy.jpg'
 
 export default function HeavyVehicleTransport() {
      const images = [
@@ -65,7 +66,7 @@ export default function HeavyVehicleTransport() {
         </div>
         <div className="h-full flex items-center">
                    <img
-                     src={image2}
+                     src={heavy}
                      className="rounded-xl shadow-lg w-full h-full max-h-[500px] object-cover"
                      alt="Specialized Transport"
                    />
