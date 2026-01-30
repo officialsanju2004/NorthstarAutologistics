@@ -17,6 +17,7 @@ import image11 from '../Images/image11.jpg'
 import enclosed from '../Images/enclosed.jpg'
  import atv from '../Images/Atv.jpg'
 import heavy from '../Images/heavy.jpg'
+import TestimonialsSection from './Components/Testimonials';
 
 
 import image4 from '../Images/image4.jpg'
@@ -964,7 +965,7 @@ Let’s get your vehicle moving — the right way.      </p>
         </div>
       </section>
     
-
+<TestimonialsSection/>
 
 
     
