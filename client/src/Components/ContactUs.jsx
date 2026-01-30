@@ -171,10 +171,10 @@ const handleSubmit = (e) => {
     <div>
       <p className="text-xs font-medium text-gray-600">Email Us</p>
       <a 
-        href="mailto:Northstarautologistics@gmail.com"
+        href="mailto:Info@northstarautologistics.com"
         className="text-xl md:text-2xl font-bold text-[#1F3A5F] hover:text-[#B23A2F] transition-colors"
       >
-        Northstarautologistics@gmail.com
+        Info@northstarautologistics.com
       </a>
     </div>
   </div>
