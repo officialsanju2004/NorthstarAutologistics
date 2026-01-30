@@ -978,60 +978,117 @@ Let’s get your vehicle moving — the right way.      </p>
       </p>
     </div>
 
-    {/* Testimonials Grid */}
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <section className="py-20 bg-black overflow-hidden">
+  <div className="container mx-auto px-6">
+
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <h3 className="text-sm font-semibold text-orange-400 mb-2">
+        What Our Customers Say
+      </h3>
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        Trusted by Vehicle Owners Nationwide
+      </h2>
+      <p className="max-w-2xl mx-auto text-gray-400">
+        From open trailers to enclosed transport and heavy vehicle shipping,
+        our customers trust us for safe, reliable, and on-time delivery.
+      </p>
+    </div>
+
+    {/* Slider */}
+    <div className="flex gap-6 md:grid md:grid-cols-3 animate-slide md:animate-none">
+
       {[
         {
           name: "Michael R.",
           service: "Open Trailer Transport",
           review:
             "Excellent service from start to finish. My car was delivered on time with zero issues. The pricing was transparent and communication was top-notch.",
+          img: "https://randomuser.me/api/portraits/men/32.jpg",
         },
         {
           name: "Sarah L.",
           service: "Enclosed Auto Transport",
           review:
             "I shipped my luxury car using enclosed transport and couldn’t be happier. The vehicle arrived in perfect condition. Highly professional team.",
+          img: "https://randomuser.me/api/portraits/women/44.jpg",
         },
         {
           name: "David K.",
           service: "Motorcycle & ATV Transport",
           review:
             "They handled my motorcycle with extreme care. Pickup and delivery were smooth, and the staff kept me updated throughout the journey.",
+          img: "https://randomuser.me/api/portraits/men/45.jpg",
         },
         {
           name: "Jennifer M.",
           service: "Heavy Vehicle & Flatbed Transport",
           review:
             "We transported heavy equipment using their flatbed service. Everything went exactly as promised. Reliable, efficient, and trustworthy.",
+          img: "https://randomuser.me/api/portraits/women/65.jpg",
+        },
+        {
+          name: "Michael R.",
+          service: "Open Trailer Transport",
+          review:
+            "Excellent service from start to finish. My car was delivered on time with zero issues. The pricing was transparent and communication was top-notch.",
+          img: "https://randomuser.me/api/portraits/men/76.jpg",
+        },
+        {
+          name: "Sarah L.",
+          service: "Enclosed Auto Transport",
+          review:
+            "I shipped my luxury car using enclosed transport and couldn’t be happier. The vehicle arrived in perfect condition. Highly professional team.",
+          img: "https://randomuser.me/api/portraits/women/12.jpg",
         },
       ].map((item, index) => (
         <div
           key={index}
-          className="group bg-[#F2E9D8]/50 p-8 rounded-2xl hover:bg-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-[#1F3A5F]/10"
+          className="min-w-full md:min-w-0 bg-[#111] border border-gray-800
+          p-6 rounded-xl shadow-lg"
         >
-          {/* Avatar */}
-          <div className="w-16 h-16 bg-gradient-to-br from-[#1F3A5F] to-[#B23A2F] rounded-2xl flex items-center justify-center mb-6 text-white text-xl font-bold">
-            {item.name.charAt(0)}
-          </div>
-
-          {/* Review */}
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-300 text-sm mb-4">
             “{item.review}”
           </p>
 
-          {/* Name */}
-          <h3 className="text-lg font-bold text-[#1F3A5F]">
-            {item.name}
-          </h3>
-          <p className="text-sm text-[#B23A2F] font-medium">
-            {item.service}
-          </p>
+          {/* Stars */}
+          <div className="flex gap-1 mb-4">
+            {Array(5).fill(0).map((_, i) => (
+              <span key={i} className="text-orange-400">★</span>
+            ))}
+          </div>
+
+          {/* User */}
+          <div className="flex items-center gap-3">
+            <img
+              src={item.img}
+              alt={item.name}
+              className="w-10 h-10 rounded-full object-cover"
+            />
+            <div>
+              <p className="text-white font-semibold text-sm">
+                {item.name}
+              </p>
+              <p className="text-orange-400 text-xs">
+                {item.service}
+              </p>
+            </div>
+          </div>
         </div>
       ))}
     </div>
-
   </div>
+
+  {/* Animation */}
+  <style jsx>{`
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-500%); }
+    }
+    .animate-slide {
+      animation: slide 28s linear infinite;
+    }
+  `}</style>
 </section>
 
 
