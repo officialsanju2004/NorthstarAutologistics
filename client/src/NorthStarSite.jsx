@@ -594,7 +594,7 @@ Let’s get your vehicle moving — the right way.      </p>
              SERVICES <span className="text-[#B23A2F]">WE PROVIDE</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-             Insert a meaningfull line to evaluate the headline
+             Insert a meaningful line to evaluate the headline
             </p>
           </div>
           {/* Mobile Carousel */}
