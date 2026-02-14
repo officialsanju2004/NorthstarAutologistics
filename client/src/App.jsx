@@ -26,6 +26,7 @@ import FlatbedTrailer from "./Components/FlatbedTrailer";
 import ContactUs from "./Components/ContactUs";
 import About from "./Components/AboutUs";
 import FormSubmissionConfirmation from "./Components/SuccessPage";
+import TermsAndConditions from "./Components/TermsAndConditions";
 
 
 
@@ -46,6 +47,8 @@ function AppRouter() {
       <Route path="/contact" element={<ContactUs/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/success-page" element={<FormSubmissionConfirmation/>}/>
+      <Route path="/termsAndConditions" element={<TermsAndConditions/>}/>
+      
 
 
 
