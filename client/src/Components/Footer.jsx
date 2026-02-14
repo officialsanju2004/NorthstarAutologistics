@@ -83,6 +83,11 @@ export default function Footer() {
               </a>
             </li>
             <li>
+              <a href="/termsAndConditions" className="ml-2 hover:text-white">
+                Terms and Conditions 
+              </a>
+            </li>
+            <li>
               <a href="/contact" className="ml-2 hover:text-white">
                 Contact Us
               </a>
