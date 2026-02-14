@@ -23,7 +23,7 @@ export default function TermsAndConditions() {
                             </div>
                             <h1 className="text-4xl md:text-5xl font-bold mb-6">Terms and Conditions</h1>
                             <p className="text-xl text-[#F2E9D8] mb-8">
-                                Effective Date: [Insert Effective Date Here]
+                                Effective Date: 1 January 2026
                             </p>
 
                         </div>
@@ -156,7 +156,7 @@ export default function TermsAndConditions() {
                                     <h3 className="text-2xl font-bold text-[#1F3A5F] mb-6">PRIVACY POLICY  </h3>
                                     <p className="text-gray-700 mb-4 leading-relaxed">
 
-                                        Effective Date: [Insert Effective Date Here]             </p>
+                                        Effective Date: 1 January 2026           </p>
                                     <p className="text-gray-700 mb-4 leading-relaxed">Northstar Autologistics LLC respects your privacy and is committed to protecting your personal information.</p>
                                     <div className="mb-10">
                                         <h3 className="text-2xl font-bold text-[#1F3A5F] mb-6">SMS Communications Privacy</h3>
