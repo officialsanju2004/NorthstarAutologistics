@@ -29,7 +29,7 @@ const Bike=location.pathname==="/BikeAtvRtvTransport"
    
     { name: 'About Us', path: '/about' },
      { name: 'Privacy Policy', path: '/privacy-policy' },
-    { name: 'Terms and Conditions', path: '/termsAndConditions' },
+    { name: 'Terms & Conditions', path: '/termsAndConditions' },
     
     { name: 'Contact Us', path: '/contact' },
    
@@ -152,7 +152,7 @@ const Bike=location.pathname==="/BikeAtvRtvTransport"
   return (
     <>
       <nav className={`fixed w-full z-50 transition-all duration-300 ${styles.background} ${styles.shadow}`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20 md:h-24">
             
             {/* Logo and Brand */}
@@ -174,7 +174,7 @@ const Bike=location.pathname==="/BikeAtvRtvTransport"
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
+            <div className="hidden lg:flex items-center space-x-6 xl:space-x-7">
                    <Link
                   
                   to="/"
