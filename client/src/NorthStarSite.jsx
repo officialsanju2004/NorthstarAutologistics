@@ -397,7 +397,7 @@ export default function AutoTransportWebsite() {
              Let’s be real — the industry is flooded with brokers. So, what makes us different? Simple:<span className='font-bold'> we actually care.</span> We don’t see you as just another number. We’re in it for the long haul — building real relationships, offering genuine support, and making sure your experience is stress-free from start to finish.
               </p>
                <p className="text-lg  text-[#1F3A5F] mb-8 leading-relaxed">
-            We work only with<span className='font-bold'>the most trusted and reliable carriers</span>  to ensure your vehicle gets where it needs to go, safely and on time. Whether you have a simple question or need help with a complex shipping need, we’re here for it — no pressure, no hidden fees.
+            We work only with <span className='font-bold'> the most trusted and reliable carriers</span>  to ensure your vehicle gets where it needs to go, safely and on time. Whether you have a simple question or need help with a complex shipping need, we’re here for it — no pressure, no hidden fees.
               </p>
               <p className="text-lg  text-[#1F3A5F] mb-8 leading-relaxed">
         When you choose Northstar Autologstics LLC,California, you’re choosing <span className='font-bold'>affordable, dependable, and hassle-free auto transport</span> you can count on.           </p>
