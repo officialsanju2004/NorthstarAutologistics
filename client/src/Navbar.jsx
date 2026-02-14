@@ -29,6 +29,8 @@ const Bike=location.pathname==="/BikeAtvRtvTransport"
    
     { name: 'About Us', path: '/about' },
      { name: 'Privacy Policy', path: '/privacy-policy' },
+    { name: 'Terms and Conditions', path: '/termsAndConditions },
+    
     { name: 'Contact Us', path: '/contact' },
    
   ];
