@@ -222,7 +222,7 @@ export default function TermsAndConditions() {
                                 </div>
 
                                 <div className="mb-10">
-                                    <a href="/privacy-policy"><i className="underline">View Our Privacy Policy......</i></a>
+                                    <a href="/privacy-policy"><i className="underline text-[#B23A2F]">View Our Privacy Policy......</i></a>
 
 
                                 </div>
