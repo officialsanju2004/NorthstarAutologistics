@@ -258,7 +258,7 @@ You can choose to disable cookies through your individual browser options. To kn
               </div>
               
 <div className="mb-10">
-                                    <a href="/termsAndConditions"><i className="underline">View Our Terms & Conditions...</i></a>
+                                    <a href="/termsAndConditions"><i className="underline text-[#B23A2F]">View Our Terms & Conditions...</i></a>
 
 
                                 </div>
