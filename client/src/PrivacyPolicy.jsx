@@ -256,6 +256,12 @@ You can choose to disable cookies through your individual browser options. To kn
                   other purpose.
                 </p>
               </div>
+              
+<div className="mb-10">
+                                    <a href="/termsAndConditions"><i className="underline">View Our Terms & Conditions...</i></a>
+
+
+                                </div>
 
    
             </div>
