@@ -98,6 +98,7 @@ export default function TermsAndConditions() {
                                     </p>
                                     <p className='text-gray-700 mb-4 leading-relaxed'>Message and data rates may apply.</p>
                                     <p className='text-gray-700 mb-4 leading-relaxed'>For assistance, text HELP or visit our website at <a href="https://northstarautologistics.com" className='text-red-500'><i className='font-bold'> https://northstarautologistics.com</i></a></p>
+                               <p className='text-gray-700 mb-4 leading-relaxed'>We are verbally asking the customer for their consent to receive SMS messages as a method of communication. This opt-in allows us to send important updates, such as support ticket confirmations, service notifications, or follow-ups, directly to their mobile device. By obtaining verbal consent, we ensure the customer is aware of and agrees to receive messages via SMS, in compliance with communication and privacy guidelines.</p>
                                 </div>
                                 {/* Log Files */}
                                 <div className="mb-10">
